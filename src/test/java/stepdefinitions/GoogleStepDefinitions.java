@@ -1,6 +1,5 @@
 package stepdefinitions;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -33,7 +32,7 @@ public class GoogleStepDefinitions {
         Driver.closeDriver();
     }
 
-    @When("kullanici tesla kelimesini aratir")
+    @When("kullanici_tesla_kelimesini_aratir")
     public void kullanici_tesla_kelimesini_aratir() {
         googlePage.googleSearchBar.sendKeys("tesla" + Keys.ENTER);
     }
@@ -42,6 +41,17 @@ public class GoogleStepDefinitions {
     public void sonucun_tesla_oldugunu_dogrular() {
         Assert.assertTrue(Driver.getDriver().getTitle().contains("tesla"));
     }
+
+    @When("kullanici {string} kelimesini aratir")
+    public void kullanici_kelimesini_aratir(String string) {
+        googlePage.googleSearchBar.sendKeys(string + Keys.ENTER);
+    }
+
+    @Then("sonucun {string} içerdiğini dogrular")
+    public void sonucun_içerdiğini_dogrular(String string) {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
+    }
+
 
 
 }

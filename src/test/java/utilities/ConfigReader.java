@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class ConfigReader {
     //    This class will ONLY be used for getting the data from
-//    configuration.properties file
+    //    configuration.properties file
     private static Properties properties;
 
     static {
