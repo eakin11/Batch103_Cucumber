@@ -13,9 +13,9 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"
         },
         monochrome = true,
-        features = "./src/test/resources/features", //features folder path
-        glue = "stepdefinitions", //stepdefinitions path
-        tags = "@personel_olusturma",
+        features = "./src/test/resources/features",
+        glue = {"stepdefinitions", "hooks"},
+        tags = "@excel",
         dryRun = false
 )
 public class Runner {

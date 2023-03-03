@@ -136,10 +136,6 @@ public class Driver {
         return null;
     }
 
-    //Webdriver
-    //ChromeDriver
-    //Iedriver
-    //FirefoxDriver
     public static void wait2(int sec) {
         try {
             Thread.sleep(1000 * sec);

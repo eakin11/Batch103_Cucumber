@@ -52,6 +52,4 @@ public class GoogleStepDefinitions {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
 
-
-
 }

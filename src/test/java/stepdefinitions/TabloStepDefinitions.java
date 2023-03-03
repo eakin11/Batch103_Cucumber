@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import pages.DataTablesPage;
 import utilities.Driver;
 
-public class DataTablesStepDefinitions {
+public class TabloStepDefinitions {
 
     DataTablesPage dataTable = new DataTablesPage();
 
