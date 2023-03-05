@@ -4,13 +4,13 @@ Feature: ilk feature file
   Background: Google_sayfasina_git
     Given kullanici Google'a gider
 
-  @iphone
+  @smoke
   Scenario: TC01_google_iphone_arama
     When kullanici iphone kelimesini aratir
     Then sonucun iphone içerdiğini dogrular
     Then close the application
 
-  @tesla
+  @smoke
   Scenario: TC02_google_tesla_arama
     When kullanici_tesla_kelimesini_aratir
     Then sonucun tesla oldugunu dogrular

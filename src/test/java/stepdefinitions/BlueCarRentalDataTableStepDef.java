@@ -3,7 +3,6 @@ package stepdefinitions;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.When;
 import pages.BlueCarRental;
-
 import java.util.List;
 import java.util.Map;
 

@@ -11,20 +11,13 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failedScenarios.txt",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "rerun:target/failedScenarios.txt"
         },
         monochrome = true,
         features = "./src/test/resources/features",
-        glue = {"stepdefinitions", "hooks"},
-        tags = "@odev",
+        glue = {"stepdefinitions"},
+        tags = "@smoke",
         dryRun = false
 )
-public class Runner {
-
+public class SmokeTestRunner {
 }
-
-//Bu sinif Test case'leri RUN etmek icin kullanilir.
-//Ve konfigurasyonlar icin kullanilir.
-
-
