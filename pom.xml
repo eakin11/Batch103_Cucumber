@@ -76,7 +76,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <skipTests>false</skipTests>
                     <includes>
-                        <include>**/runners/*TestRunner*.java</include>
+                        <include>**/runners/*Runner*.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -88,7 +88,7 @@
                 <configuration>
                     <parallel>classes</parallel>
                     <forkMode>perthread</forkMode>
-                    <threadCount>3</threadCount>
+                    <threadCount>1</threadCount>
                     <reuseForks>false</reuseForks>
                     <argLine>-Duser.language=en</argLine>
                     <argLine>-Xmx1024m</argLine>

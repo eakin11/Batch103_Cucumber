@@ -17,14 +17,10 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = "./src/test/resources/features",
         glue = {"stepdefinitions", "hooks"},
-        tags = "@odev",
+        tags = "@smoke",
         dryRun = false
 )
 public class Runner {
 
 }
-
-//Bu sinif Test case'leri RUN etmek icin kullanilir.
-//Ve konfigurasyonlar icin kullanilir.
-
 

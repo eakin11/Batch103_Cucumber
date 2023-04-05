@@ -21,3 +21,5 @@ Feature: personel_olusturma
       | first_name   | last_name | positions | office    | extension | start_date | salary |
       | Abizittin    | Z         | QA        | Vancouver | Senior    | 2024-02-28 | 55000  |
       | Mahmutzittin | M         | Developer | Toronto   | Junior    | 2024-01-28 | 75000  |
+
+
