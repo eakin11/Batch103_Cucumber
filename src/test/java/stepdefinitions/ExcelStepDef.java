@@ -17,7 +17,7 @@ public class ExcelStepDef {
     public void kullanici_bilgileri_ile_giris_yapar(String string) {
         List<Map<String, String>> dataList = excelUtils.getDataList();
         for (Map<String, String> w : dataList) {
-            Driver.getDriver().get("https://www.bluerentalcars1.com/");
+            Driver.getDriver().get("https://www.bluerentalcars.com/");
             blueCarRental.firstLoginBtn.click();
             blueCarRental.usernameInput.sendKeys(w.get("username"));
             blueCarRental.passwordInput.sendKeys(w.get("password"));
