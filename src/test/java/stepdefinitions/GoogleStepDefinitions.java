@@ -49,7 +49,7 @@ public class GoogleStepDefinitions {
 
     @Then("sonucun {string} içerdiğini dogrular")
     public void sonucun_içerdiğini_dogrular(String string) {
-        Assert.assertTrue(Driver.getDriver().getTitle().equals(string + "1111"));
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
 
 }
