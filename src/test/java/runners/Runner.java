@@ -21,6 +21,4 @@ import org.junit.runner.RunWith;
         dryRun = false
 )
 public class Runner {
-
 }
-
