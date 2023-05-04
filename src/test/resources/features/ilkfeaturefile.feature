@@ -10,7 +10,7 @@ Feature: ilk feature file
     Then sonucun iphone içerdiğini dogrular
     Then close the application
 
-  @smoke
+
   Scenario: TC02_google_tesla_arama
     When kullanici_tesla_kelimesini_aratir
     Then sonucun tesla oldugunu dogrular

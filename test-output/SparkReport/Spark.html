@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 30, 2023 05:04:23 PM</span></a>
+<a href="#"><span class="badge badge-primary">May 4, 2023 05:37:26 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,19 +66,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 30, 2023 05:04:23 PM</h3>
+<h3>May 4, 2023 05:37:26 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 30, 2023 05:04:43 PM</h3>
+<h3>May 4, 2023 05:37:44 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -101,7 +101,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>2</b> features passed
+<b>1</b> features passed
 </small>
 </div>
 <div>
@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>10</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>12</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"excel_login_feature":10.489,"ilk feature file":8.932
+"arama_feature":17.436
 };
 </script>
 <div class="row">
@@ -172,24 +172,8 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@excel</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@smoke</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@google_search</td>
-<td>2</td>
+<td>@scenario_outline_1</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -218,7 +202,7 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
+passParent: 1,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
@@ -229,7 +213,7 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 10,
+passGrandChild: 12,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -254,7 +238,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@excel</a><a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@google_search</a>
+<a class="dropdown-item" href="#">@scenario_outline_1</a>
 </ul>
 </li>
 </ul>
@@ -265,9 +249,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">excel_login_feature</p>
+            <p class="name">arama_feature</p>
             <p class="text-sm">
-              <span>5:04:24 PM</span> / <span>00:00:10:489</span>
+              <span>5:37:26 PM</span> / <span>00:00:17:436</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -275,10 +259,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">excel_login_feature</h5>
-<span class='badge badge-success'>03.30.2023 5:04:24 PM</span>
-<span class='badge badge-danger'>03.30.2023 5:04:35 PM</span>
-<span class='badge badge-default'>00:00:10:489</span>
+<h5 class="test-status text-pass">arama_feature</h5>
+<span class='badge badge-success'>05.04.2023 5:37:26 PM</span>
+<span class='badge badge-danger'>05.04.2023 5:37:44 PM</span>
+<span class='badge badge-default'>00:00:17:436</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -290,114 +274,97 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TC01_customer_login</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>"<product>"_arama_testi</div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.ExcelStepDef.kullanici_bilgileri_ile_giris_yapar(java.lang.String)">
-                <span>Given kullanici "customer_info" bilgileri ile giris yapar</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>"iPhone"_arama_testi</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given kullanici Google'a gider</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.close_the_application()">
-                <span>And close the application</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When kullanici "iPhone" kelimesini aratir</span>
       <div>
       </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">ilk feature file</p>
-            <p class="text-sm">
-              <span>5:04:35 PM</span> / <span>00:00:08:932</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">ilk feature file</h5>
-<span class='badge badge-success'>03.30.2023 5:04:35 PM</span>
-<span class='badge badge-danger'>03.30.2023 5:04:43 PM</span>
-<span class='badge badge-default'>00:00:08:932</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>TC01_google_iphone_arama</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.kullanici_google_a_gider()">
-                <span>Given kullanici Google'a gider</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then sonucun "iPhone" içerdiğini dogrular</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.kullanici_iphone_kelimesini_aratir()">
-                <span>When kullanici iphone kelimesini aratir</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then close the application</span>
       <div>
       </div>
+                  </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.sonucun_iphone_icerdiğini_dogrular()">
-                <span>Then sonucun iphone içerdiğini dogrular</span>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>"tesla"_arama_testi</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given kullanici Google'a gider</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.close_the_application()">
-                <span>Then close the application</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When kullanici "tesla" kelimesini aratir</span>
       <div>
       </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>TC02_google_tesla_arama</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.kullanici_google_a_gider()">
-                <span>Given kullanici Google'a gider</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then sonucun "tesla" içerdiğini dogrular</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.kullanici_tesla_kelimesini_aratir()">
-                <span>When kullanici_tesla_kelimesini_aratir</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then close the application</span>
       <div>
       </div>
+                  </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.sonucun_tesla_oldugunu_dogrular()">
-                <span>Then sonucun tesla oldugunu dogrular</span>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>"dog"_arama_testi</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given kullanici Google'a gider</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefinitions.close_the_application()">
-                <span>Then close the application</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When kullanici "dog" kelimesini aratir</span>
       <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then sonucun "dog" içerdiğini dogrular</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then close the application</span>
+      <div>
+      </div>
+                  </div>
               </div>
-          </div>
+            </div>
         </div>
   </div>
 </div>
@@ -416,22 +383,22 @@ eventsCount: 5,
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log pass-bg'>4</span>
 </span>
-<p class="name">@excel</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">@scenario_outline_1</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@excel</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>@scenario_outline_1</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -444,113 +411,41 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:04:24 PM</td>
+<td>17:37:26 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>TC01_customer_login</a>
+<a href="#" class="linked" test-id='1' id='2'>"<product>"_arama_testi</a>
 <div class="">
-<span class="badge badge-default">excel_login_feature.TC01_customer_login</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>3</span>
-</span>
-<p class="name">@smoke</p>
-<p class="duration text-sm">3 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@smoke</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>17:04:24 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>TC01_customer_login</a>
-<div class="">
-<span class="badge badge-default">excel_login_feature.TC01_customer_login</span>
+<span class="badge badge-default">arama_feature."<product>"_arama_testi</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:04:35 PM</td>
+<td>17:37:26 PM</td>
 <td>
-<a href="#" class="linked" test-id='7' id='8'>TC01_google_iphone_arama</a>
+<a href="#" class="linked" test-id='1' id='3'>"iPhone"_arama_testi</a>
 <div class="">
-<span class="badge badge-default">ilk feature file.TC01_google_iphone_arama</span>
+<span class="badge badge-default">arama_feature."iPhone"_arama_testi</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:04:39 PM</td>
+<td>17:37:33 PM</td>
 <td>
-<a href="#" class="linked" test-id='7' id='15'>TC02_google_tesla_arama</a>
+<a href="#" class="linked" test-id='1' id='9'>"tesla"_arama_testi</a>
 <div class="">
-<span class="badge badge-default">ilk feature file.TC02_google_tesla_arama</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>2</span>
-</span>
-<p class="name">@google_search</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@google_search</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>17:04:35 PM</td>
-<td>
-<a href="#" class="linked" test-id='7' id='8'>TC01_google_iphone_arama</a>
-<div class="">
-<span class="badge badge-default">ilk feature file.TC01_google_iphone_arama</span>
+<span class="badge badge-default">arama_feature."tesla"_arama_testi</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:04:39 PM</td>
+<td>17:37:38 PM</td>
 <td>
-<a href="#" class="linked" test-id='7' id='15'>TC02_google_tesla_arama</a>
+<a href="#" class="linked" test-id='1' id='15'>"dog"_arama_testi</a>
 <div class="">
-<span class="badge badge-default">ilk feature file.TC02_google_tesla_arama</span>
+<span class="badge badge-default">arama_feature."dog"_arama_testi</span>
 </div>
 </td>
 </tr>
